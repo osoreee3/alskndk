@@ -1,10 +1,10 @@
-name: work-1 //이름
+name: work-1 
 on:
   push:
     branches:
       - main //메인에 푸쉬
-jobs: // 어떤시행을 시킬지
-  hello1: // hello1이라는 잡
+jobs: 
+  hello1:
     runs-on: ubuntu-latest
     steps:
       - name: sayHi
